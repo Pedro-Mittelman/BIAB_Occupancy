@@ -1,0 +1,248 @@
+{
+  "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/camtrap-dp-profile.json",
+  "name": "iberian-camtrap-donana",
+  "id": "iberian-camtrap-donana",
+  "created": "2026-05-21T00:00:00Z",
+  "title": "Iberian Camera Trap Project – Doñana",
+  "description": "Camera trap dataset collected in the Doñana area (southwestern Spain) as part of the Iberian Camera Trap Project. Records cover 1650 deployments across multiple survey seasons (2020–2025). Observations were classified via the Zooniverse platform (IbCamTrapProj).",
+  "contributors": [
+    {
+      "title": "Simone",
+      "email": "miseno77@hotmail.com",
+      "role": "principalInvestigator"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "scope": "data"
+    },
+    {
+      "name": "CC-BY-4.0",
+      "scope": "media"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Iberian Camera Trap Project (Zooniverse)",
+      "path": "https://www.zooniverse.org"
+    }
+  ],
+  "version": "1.0",
+  "coordinatePrecision": 0.0001,
+  "project": {
+    "title": "Iberian Camera Trap Project – Doñana",
+    "description": "Long-term camera trap monitoring in the Doñana area targeting Iberian lynx (Lynx pardinus) and associated mammal community.",
+    "samplingDesign": "simpleRandom",
+    "captureMethod": ["activityDetection"],
+    "individualAnimals": false,
+    "observationLevel": ["media", "event"]
+  },
+  "spatial": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [-6.54303, 36.798937],
+        [-6.365273, 36.798937],
+        [-6.365273, 37.135486],
+        [-6.54303, 37.135486],
+        [-6.54303, 36.798937]
+      ]
+    ]
+  },
+  "temporal": {
+    "start": "2020-10-19",
+    "end": "2025-03-16"
+  },
+  "taxonomic": [
+    {
+      "scientificName": "Bos taurus",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Bovidae",
+      "genus": "Bos",
+      "vernacularNames": {"eng": "Cattle", "spa": "Vaca"}
+    },
+    {
+      "scientificName": "Cervidae sp.",
+      "taxonRank": "family",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "vernacularNames": {"eng": "Deer sp.", "spa": "Cérvido sp."}
+    },
+    {
+      "scientificName": "Cervus elaphus",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Cervus",
+      "vernacularNames": {"eng": "Red deer", "spa": "Ciervo"}
+    },
+    {
+      "scientificName": "Dama dama",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Cervidae",
+      "genus": "Dama",
+      "vernacularNames": {"eng": "Fallow deer", "spa": "Gamo"}
+    },
+    {
+      "scientificName": "Equus caballus",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Perissodactyla",
+      "family": "Equidae",
+      "genus": "Equus",
+      "vernacularNames": {"eng": "Horse", "spa": "Caballo"}
+    },
+    {
+      "scientificName": "Genetta genetta",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Viverridae",
+      "genus": "Genetta",
+      "vernacularNames": {"eng": "Common genet", "spa": "Gineta"}
+    },
+    {
+      "scientificName": "Herpestes ichneumon",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Herpestidae",
+      "genus": "Herpestes",
+      "vernacularNames": {"eng": "Egyptian mongoose", "spa": "Meloncillo"}
+    },
+    {
+      "scientificName": "Homo sapiens",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Primates",
+      "family": "Hominidae",
+      "genus": "Homo",
+      "vernacularNames": {"eng": "Human", "spa": "Humano"}
+    },
+    {
+      "scientificName": "Leporidae sp.",
+      "taxonRank": "family",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Lagomorpha",
+      "family": "Leporidae",
+      "vernacularNames": {"eng": "Hare or rabbit", "spa": "Lepórido sp."}
+    },
+    {
+      "scientificName": "Lepus granatensis",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Lagomorpha",
+      "family": "Leporidae",
+      "genus": "Lepus",
+      "vernacularNames": {"eng": "Iberian hare", "spa": "Liebre ibérica"}
+    },
+    {
+      "scientificName": "Lynx pardinus",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Felidae",
+      "genus": "Lynx",
+      "vernacularNames": {"eng": "Iberian lynx", "spa": "Lince ibérico"}
+    },
+    {
+      "scientificName": "Meles meles",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Mustelidae",
+      "genus": "Meles",
+      "vernacularNames": {"eng": "Eurasian badger", "spa": "Tejón"}
+    },
+    {
+      "scientificName": "Oryctolagus cuniculus",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Lagomorpha",
+      "family": "Leporidae",
+      "genus": "Oryctolagus",
+      "vernacularNames": {"eng": "European rabbit", "spa": "Conejo"}
+    },
+    {
+      "scientificName": "Sus scrofa",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Artiodactyla",
+      "family": "Suidae",
+      "genus": "Sus",
+      "vernacularNames": {"eng": "Wild boar", "spa": "Jabalí"}
+    },
+    {
+      "scientificName": "Unknown",
+      "vernacularNames": {"eng": "Unknown", "spa": "Desconocido"}
+    },
+    {
+      "scientificName": "Vulpes vulpes",
+      "taxonRank": "species",
+      "kingdom": "Animalia",
+      "class": "Mammalia",
+      "order": "Carnivora",
+      "family": "Canidae",
+      "genus": "Vulpes",
+      "vernacularNames": {"eng": "Red fox", "spa": "Zorro"}
+    }
+  ],
+  "resources": [
+    {
+      "name": "deployments",
+      "type": "table",
+      "profile": "tabular-data-resource",
+      "path": "deployments.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/deployments-table-schema.json"
+    },
+    {
+      "name": "media",
+      "type": "table",
+      "profile": "tabular-data-resource",
+      "path": "media.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/media-table-schema.json"
+    },
+    {
+      "name": "observations",
+      "type": "table",
+      "profile": "tabular-data-resource",
+      "path": "observations.csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0.2/observations-table-schema.json"
+    }
+  ],
+  "relatedIdentifiers": [],
+  "references": []
+}
